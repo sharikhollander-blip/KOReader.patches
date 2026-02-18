@@ -122,7 +122,7 @@ ReaderView.paintTo = function(self, bb, x, y)
 
     -- ===========================!!!!!!!!!!!!!!!=========================== -
     -- What you put here will show in the header:
-    local centered_header = string.format("%s %s %s", book_author, separator.en_dash, book_title)
+    local centered_header = string.format("%s %s %s", book_title)
     -- Look up "string.format" in Lua if you need help.
     -- ===========================!!!!!!!!!!!!!!!=========================== -
 
